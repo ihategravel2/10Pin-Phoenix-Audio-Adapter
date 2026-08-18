@@ -2,6 +2,10 @@
 
 A 10-pin Phoenix audio adapter designed for Extron CrossPoint matrix switchers.
 
+<img width="900" alt="Main 3D render of the 10-pin Phoenix audio adapter PCB without the Phoenix connector installed" src="images/main-render-without-phoenix-connector.png" />
+
+*Main render of the adapter. The mating 10-pin Phoenix connector is not shown.*
+
 ## Why a 10-Pin Connector?
 
 Conventional Phoenix audio adapters typically use 5-pin connectors intended for individual 5-pin receptacles. Extron CrossPoint units instead use 10-pin female Phoenix receptacles for their audio connections.
@@ -17,6 +21,17 @@ This design uses a single 10-pin connector, so the connector sides do not need t
 - Avoids the fit problems associated with two conventional 5-pin connectors
 - Configurable for input or output use with solder jumpers
 - Intended as a practical replacement for difficult-to-source Extron-style slim connectors
+
+## Bill of Materials
+
+### Phoenix Connector
+
+- **Recommended part:** [JILN JL15EDGK-35010G01 — LCSC C409110](https://www.lcsc.com/product-detail/C409110.html)
+- **Positions:** 10 (1×10)
+- **Pitch:** 3.5 mm
+- **Connector type:** Plug
+
+An equivalent connector may be used if it has **10 positions**, **3.5 mm pitch**, and is mechanically compatible with the 10-pin female Phoenix receptacle on the Extron CrossPoint.
 
 ## Input and Output Configuration
 
