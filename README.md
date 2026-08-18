@@ -33,6 +33,10 @@ This design uses a single 10-pin connector, so the connector sides do not need t
 
 An equivalent connector may be used if it has **10 positions**, **3.5 mm pitch**, and is mechanically compatible with the 10-pin female Phoenix receptacle on the Extron CrossPoint.
 
+<img width="354" alt="Male 10-position 3.5 mm-pitch Phoenix-style screw-terminal plug" src="images/phoenix-10-position-screw-terminal-plug.jpg" />
+
+*Example of a male 10-position, 3.5 mm-pitch Phoenix-style screw-terminal plug.*
+
 ## Input and Output Configuration
 
 The adapter includes a GND solder pad beside the negative-terminal pads.
