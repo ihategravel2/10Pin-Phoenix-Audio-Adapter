@@ -50,6 +50,14 @@ The adapter includes a GND solder pad beside the negative-terminal pads.
 
 *The GND pad can be bridged to the adjacent negative-terminal pads to configure the adapter for input use.*
 
+## Fabrication Files
+
+- [Download the Gerber package](Gerber_PCB2_2026-08-17.zip)
+
+The archive contains the Gerber layers and plated/non-plated drill files needed for PCB fabrication.
+
+> **Untested:** These fabrication files have not been physically tested. Review them with your PCB manufacturer's viewer before ordering.
+
 ## Project Status
 
 > **Important:** The design and fabrication files provided in this repository have not been physically tested. Verify the dimensions, pinout, jumper configuration, and electrical connections before ordering boards, assembling the adapter, or connecting it to equipment.
