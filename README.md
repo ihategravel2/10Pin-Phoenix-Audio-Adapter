@@ -2,9 +2,13 @@
 
 A 10-pin Phoenix audio adapter designed for Extron CrossPoint matrix switchers.
 
+<img width="900" alt="Assembled 10-pin Phoenix audio adapter with two 3.5 mm audio jacks" src="images/assembled-front.jpg" />
+
+*Assembled adapter with the mating 10-pin Phoenix connector installed.*
+
 <img width="900" alt="Main 3D render of the 10-pin Phoenix audio adapter PCB without the Phoenix connector installed" src="images/main-render-without-phoenix-connector.png" />
 
-*Main render of the adapter. The mating 10-pin Phoenix connector is not shown.*
+*PCB render. The mating 10-pin Phoenix connector is not shown.*
 
 ## Why a 10-Pin Connector?
 
@@ -14,6 +18,10 @@ Extron's original 5-pin connectors were custom, slimmer parts designed to fit si
 
 This design uses a single 10-pin connector, so the connector sides do not need to be trimmed or sanded.
 
+<img width="900" alt="Four assembled adapters installed in adjacent Extron CrossPoint 10-pin audio receptacles" src="images/installed-on-crosspoint.jpg" />
+
+*Four assembled adapters installed side by side on an Extron CrossPoint Ultra 88 HVA.*
+
 ## Features
 
 - Single 10-pin connector matching the receptacle format used by Extron CrossPoint units
@@ -21,6 +29,10 @@ This design uses a single 10-pin connector, so the connector sides do not need t
 - Avoids the fit problems associated with two conventional 5-pin connectors
 - Configurable for input or output use with solder jumpers
 - Intended as a practical replacement for difficult-to-source Extron-style slim connectors
+
+<img width="700" alt="Angled view of the assembled adapter showing the PCB, audio jacks, and Phoenix connector pins" src="images/assembled-angled.jpg" />
+
+*Angled view of the assembled adapter and connector pins.*
 
 ## Bill of Materials
 
@@ -37,6 +49,12 @@ An equivalent connector may be used if it has **10 positions**, **3.5 mm pitch**
 
 *Example of a male 10-position, 3.5 mm-pitch Phoenix-style screw-terminal plug.*
 
+### 3.5 mm to Left/Right RCA Adapter
+
+- **Recommended adapter:** [Coolgear CM-201412BSTK — DigiKey 28168084](https://www.digikey.com/en/products/detail/coolgear/CM-201412BSTK/28168084)
+
+Use one adapter for each 3.5 mm stereo jack when separate left and right RCA connections are required.
+
 ## Input and Output Configuration
 
 The adapter includes a GND solder pad beside the negative-terminal pads.
@@ -45,6 +63,10 @@ The adapter includes a GND solder pad beside the negative-terminal pads.
 - **Output use:** Leave both bridges open so the output negative terminals are not connected to ground.
 
 > **Important:** Do not use the input configuration on an output. Shorting the negative terminals of a balanced output to ground may cause improper operation or damage, depending on the output circuit.
+
+<img width="900" alt="Underside of the assembled adapter showing the solder joints and terminal pins" src="images/assembled-underside.jpg" />
+
+*Underside of the assembled adapter.*
 
 <img width="700" alt="Close-up rendering of the GND solder-jumper pad and adjacent negative-terminal pads" src="images/input-output-solder-jumper.png" />
 
@@ -56,11 +78,7 @@ The adapter includes a GND solder pad beside the negative-terminal pads.
 
 The archive contains the Gerber layers and plated/non-plated drill files needed for PCB fabrication.
 
-> **Untested:** These fabrication files have not been physically tested. Review them with your PCB manufacturer's viewer before ordering.
-
-## Project Status
-
-> **Important:** The design and fabrication files provided in this repository have not been physically tested. Verify the dimensions, pinout, jumper configuration, and electrical connections before ordering boards, assembling the adapter, or connecting it to equipment.
+> **Verification:** A physical board has been assembled and test-fitted as shown above. Review the files with your PCB manufacturer's viewer and verify the dimensions, pinout, jumper configuration, and electrical connections before ordering or connecting the adapter to equipment.
 
 ## License
 
