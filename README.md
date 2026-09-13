@@ -6,8 +6,6 @@ A 10-pin Phoenix audio adapter designed for Extron CrossPoint matrix switchers.
 
 *Assembled adapter with the mating 10-pin Phoenix connector installed.*
 
-*Prototype photos courtesy of sg17.*
-
 <img width="900" alt="Main 3D render of the 10-pin Phoenix audio adapter PCB without the Phoenix connector installed" src="images/main-render-without-phoenix-connector.png" />
 
 *PCB render. The mating 10-pin Phoenix connector is not shown.*
@@ -77,6 +75,10 @@ The adapter includes a GND solder pad beside the negative-terminal pads.
 The archive contains the Gerber layers and plated/non-plated drill files needed for PCB fabrication.
 
 > **Verification:** A physical board has been assembled and test-fitted as shown above. Review the files with your PCB manufacturer's viewer and verify the dimensions, pinout, jumper configuration, and electrical connections before ordering or connecting the adapter to equipment.
+
+## Photo Credit
+
+**All prototype photographs in this repository were provided by sg17.**
 
 ## License
 
